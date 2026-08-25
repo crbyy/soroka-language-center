@@ -36,8 +36,7 @@ export default function About() {
 
             <p className="mt-4 text-justify text-base leading-relaxed text-gray-600">
               В языковом центре «Сорока» мы помогаем
-              детям и взрослым изучать иностранные языки уверенно, интересно и
-              с удовольствием.
+              детям и взрослым изучать иностранные языки с интересом и удовольствием.
             </p>
 
             <p className="mt-4 text-justify text-base leading-relaxed text-gray-600">
@@ -48,7 +47,7 @@ export default function About() {
 
             <p className="mt-4 text-justify text-base leading-relaxed text-gray-600">
               Наша задача — не просто научить правилам и словам,
-              а помочь человеку действительно заговорить на
+              а помочь человеку уверенно заговорить на
               иностранном языке и не бояться использовать его
               в жизни.
             </p>

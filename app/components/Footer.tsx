@@ -64,14 +64,14 @@ export default function Footer() {
 
                   className="transition-colors hover:text-orange"
                 >
-                  +7 (000) 000-00-00
+                  +7 (914) 136-51-12
                 </a>
 
                 <a
 
                   className="transition-colors hover:text-orange"
                 >
-                  info@soroka.ru
+                  sorokinachita@mail.ru
                 </a>
 
                 <a
@@ -106,7 +106,13 @@ export default function Footer() {
           <div className="flex flex-col gap-3 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
 
             <p>
-              © 2026 Языковой центр «Сорока»
+              © 2026 Языковой центр «Сорока» <br/>
+                <span className='text-xs text-white/50'>
+                  ИП Сорокина Наталья Валерьевна <br/>
+                  ИНН  753600497743 <br/>
+                  ОГРНИП 326750000004167 <br/>
+                </span>
+
             </p>
 
             <a

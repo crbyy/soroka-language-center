@@ -270,7 +270,7 @@ const courses = [
     vkLinks: [
       {
         label: "Посмотреть материал в VK",
-        url: "https://vk.ru/wall-216504401_502",
+        url: "https://vk.com/video114887644_456239926?list=589982b8ca53ba4e21",
       },
       {
         label: "Посмотреть клип в VK",

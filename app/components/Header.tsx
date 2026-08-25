@@ -41,14 +41,14 @@ export default function Header() {
         <nav className="flex items-center gap-7">
           <a
             href={coursesLink}
-            className="text-base text-navy transition-colors hover:text-orange"
+            className="text-lg text-navy font-semibold transition-colors hover:text-orange"
           >
             Курсы
           </a>
 
           <a
             href={aboutLink}
-            className="text-base text-navy transition-colors hover:text-orange"
+            className="text-lg text-navy font-semibold transition-colors hover:text-orange"
           >
             О нас
           </a>
@@ -56,19 +56,57 @@ export default function Header() {
 
           <a
             href="#contacts"
-            className="text-base text-navy transition-colors hover:text-orange"
+            className="text-lg  text-navy font-semibold transition-colors hover:text-orange"
           >
             Контакты
           </a>
         </nav>
 
-        {/* Кнопка */}
-        <ConsultationButton
-          className="rounded-lg bg-orange px-7 py-4 text-base font-semibold text-white transition-all
-          hover:brightness-95"
-        >
-          Записаться на консультацию
-        </ConsultationButton>
+        {/* Кнопка + соцсети */}
+        <div className="flex items-center gap-4">
+
+
+          {/* Соцсети */}
+          <div className="flex items-center gap-2">
+            <a
+              href="https://vk.ru/sorokachita"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ВКонтакте"
+              className="flex h-10 w-10 items-center justify-center rounded-full transition-all hover:bg-white hover:shadow-sm"
+            >
+              <Image
+                src="/images/logo/vk.svg"
+                alt=""
+                width={26}
+                height={26}
+                className="h-[26px] w-[26px] object-contain"
+              />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@soroka4101"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="flex h-10 w-10 items-center justify-center rounded-full transition-all hover:bg-white hover:shadow-sm"
+            >
+              <Image
+                src="/images/logo/youtube.svg"
+                alt=""
+                width={26}
+                height={26}
+                className="h-[26px] w-[26px] object-contain"
+              />
+            </a>
+          </div>
+
+          <ConsultationButton
+            className="rounded-lg bg-orange px-7 py-4 text-base font-semibold text-white transition-all hover:brightness-95"
+          >
+            Записаться на консультацию
+          </ConsultationButton>
+        </div>
       </div>
     </header>
   );

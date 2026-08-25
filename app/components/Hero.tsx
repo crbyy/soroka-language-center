@@ -25,7 +25,7 @@ export default function Hero() {
               для детей и взрослых —
               <br />
               <span className="font-medium text-navy">
-                учимся говорить уверенно и с удовольствием.
+                учимся говорить уверенно и с удовольствием!
               </span>
             </p>
 
@@ -47,17 +47,17 @@ export default function Hero() {
         </div>
 
         {/* Правая часть */}
-        <div className="grid grid-cols-[220px_450px] items-center justify-end">
+        <div className="grid grid-cols-[300px_450px] items-center justify-end">
 
           {/* Сорока */}
-          <div className=" flex w-[220px] items-center justify-center">
-            <Image
-              src="/images/logo/soroka_beads_right.svg"
-              alt=""
-              width={220}
-              height={300}
-              className="h-auto w-[220px] object-contain"
-            />
+          <div className="flex w-[350px] items-start justify-center">
+              <Image
+                src="/images/logo/magpies_dialogue.svg"
+                alt=""
+                width={320}
+                height={360}
+                className="relative -left-20 -top-10 h-auto w-[350px] object-contain"
+              />
           </div>
 
           {/* Фотография */}
