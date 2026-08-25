@@ -27,6 +27,46 @@ export default function Footer() {
                 английский, немецкий и китайский
                 для детей и взрослых.
               </p>
+              {/* Социальные сети */}
+                <div className="mt-5">
+                  <p className="text-sm font-semibold text-white">
+                    Мы в соцсетях
+                  </p>
+
+                  <div className="mt-3 flex items-center gap-3">
+                    <a
+                      href="https://vk.ru/sorokachita"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="ВКонтакте"
+                      className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-white/20"
+                    >
+                      <Image
+                        src="/images/logo/vk.svg"
+                        alt=""
+                        width={22}
+                        height={22}
+                        className="h-[22px] w-[22px] object-contain"
+                      />
+                    </a>
+
+                    <a
+                      href="https://www.youtube.com/@soroka4101"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="YouTube"
+                      className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-white/20"
+                    >
+                      <Image
+                        src="/images/logo/youtube.svg"
+                        alt=""
+                        width={22}
+                        height={22}
+                        className="h-[22px] w-[22px] object-contain"
+                      />
+                    </a>
+                  </div>
+                </div>
             </div>
 
             {/* Навигация */}
