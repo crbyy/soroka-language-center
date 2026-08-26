@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Сорока */}
           <div className="flex w-[350px] items-start justify-center">
               <Image
-                src="/images/logo/magpies_dialogue.svg"
+                src="/images/logo/soroka_dialogue.png"
                 alt=""
                 width={320}
                 height={360}

@@ -174,7 +174,8 @@ async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
             />
 
             <span className="text-xs leading-relaxed text-gray-500">
-              Я согласен(а) на обработку персональных данных.
+              Я согласен(а) на обработку <a  className='text-orange'  href='/privacy' target='_blank'> персональных
+              данных.</a>
             </span>
           </label>
 
