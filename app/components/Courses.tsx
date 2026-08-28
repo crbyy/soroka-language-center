@@ -78,6 +78,7 @@ export default function Courses() {
                       src={course.image}
                       alt={course.title.replace("\n", " ")}
                       fill
+                      unoptimized={course.image === "/images/courses/adults.png"}
                       className="object-cover object-[center_20%]"
                     />
 

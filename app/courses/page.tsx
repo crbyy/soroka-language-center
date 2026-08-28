@@ -319,7 +319,7 @@ export default function CoursesPage() {
               >
                 {/* Фото */}
                 <div
-                  className={`relative h-[420px] overflow-hidden rounded-2xl bg-gray-100 ${
+                  className={`relative h-[360px] overflow-hidden rounded-2xl bg-gray-100 sm:h-[400px] lg:h-[420px] ${
                     index % 2 === 1 ? "lg:order-2" : ""
                   }`}
                 >

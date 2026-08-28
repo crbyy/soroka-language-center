@@ -128,7 +128,7 @@ export default function Footer() {
 
 
           {/* Карта */}
-            <div className="h-[300px] w-[520px] overflow-hidden rounded-2xl">
+            <div className="h-[300px] w-full overflow-hidden rounded-2xl">
               <iframe
                 src="https://yandex.ru/map-widget/v1/?um=constructor%3A0c113d9343af8dfad9f4197990845beb9d0602c2a13e151adac73f94775bba44"
                 width="100%"
