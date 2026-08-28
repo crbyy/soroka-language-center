@@ -31,7 +31,7 @@ export default function About() {
 
             <p className="mt-6 text-justify text-base leading-relaxed text-gray-600">
               Единственный в Чите центр под руководством доктора педагогических наук
-              по специальности "Теория и методика обучения иностранным языкам" с 29-летним стажем преподавания.
+              по специальности "Теория и методика обучения иностранным языкам" с 30-летним стажем преподавания.
             </p>
 
             <p className="mt-4 text-justify text-base leading-relaxed text-gray-600">
