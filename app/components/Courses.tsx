@@ -5,25 +5,25 @@ const courses = [
     image: "/images/courses/preschool.png",
     title: "Английский\nдля дошкольников",
     age: "4-5 лет",
-    price: "5 250 ₽",
+    price: "5 550 ₽",
   },
   {
     image: "/images/courses/school.png",
     title: "Английский\nдля младших школьников",
     age: "6-9 лет",
-    price: "5 250 ₽",
+    price: "5 550 ₽",
   },
   {
     image: "/images/courses/teens.png",
     title: "Английский\nдля подростков",
     age: "11–15 лет",
-    price: "5 250 ₽",
+    price: "5 550 ₽",
   },
   {
     image: "/images/courses/adults.png",
     title: "Английский\nдля взрослых и подростков",
     age: "от 15 лет",
-    price: "5 900 ₽",
+    price: "6 400 ₽",
   },
 
 //   {

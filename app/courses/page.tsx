@@ -8,7 +8,7 @@ const courses = [
     image: "/images/courses/preschool_page.png",
     title: "Английский для дошкольников",
     age: "4–5 лет",
-    price: "5 250 ₽ / месяц",
+    price: "5 550 ₽ / месяц",
 
     paragraphs: [
       <>
@@ -60,7 +60,7 @@ const courses = [
     image: "/images/courses/school_page.png",
     title: "Английский для младших школьников",
     age: "6–9 лет",
-    price: "5 250 ₽ / месяц",
+    price: "5 550 ₽ / месяц",
 
     paragraphs: [
       <>
@@ -118,7 +118,7 @@ const courses = [
     image: "/images/courses/teens_page.png",
     title: "Английский для подростков",
     age: "11–15 лет",
-    price: "5 250 ₽ / месяц",
+    price: "5 550 ₽ / месяц",
 
     paragraphs: [
       <>
@@ -153,7 +153,7 @@ const courses = [
     image: "/images/courses/adults_page.png",
     title: "Английский для взрослых и подростков с 15 лет",
     age: "от 15 лет",
-    price: "5 900 ₽ / месяц",
+    price: "6 400 ₽ / месяц",
 
     paragraphs: [
       <>
@@ -196,7 +196,7 @@ const courses = [
     image: "/images/courses/chinese_page.png",
     title: "Китайский язык",
     age: "для детей и взрослых",
-    price: "5 900 ₽ / месяц",
+    price: "6 400 ₽ / месяц",
 
     paragraphs: [
       <>
