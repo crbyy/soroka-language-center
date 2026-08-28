@@ -2,6 +2,14 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ConsultationButton from "../components/ConsultationButton";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Курсы иностранных языков в Чите | «Сорока»",
+  description:
+    "Курсы английского, немецкого и китайского языков для детей, подростков и взрослых в языковом центре «Сорока» в Чите.",
+};
+
 
 const courses = [
   {

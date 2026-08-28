@@ -2,6 +2,13 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ConsultationButton from "../components/ConsultationButton";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "О языковом центре «Сорока» в Чите",
+  description:
+    "История, миссия и подход к обучению в языковом центре «Сорока» в Чите.",
+};
 
 export default function AboutPage() {
   return (

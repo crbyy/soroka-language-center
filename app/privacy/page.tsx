@@ -1,5 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Согласие на обработку персональных данных | «Сорока»",
+  description:
+    "Согласие на обработку персональных данных пользователей сайта языкового центра «Сорока».",
+};
 
 export default function PrivacyPage() {
   return (

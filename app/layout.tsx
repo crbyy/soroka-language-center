@@ -9,8 +9,8 @@ const manrope = Manrope({
 
 
 export const metadata: Metadata = {
-  title: "Языковой центр Сорока",
-  description: "Языковой центр «Сорока» — английский, немецкий и китайский языки для детей и взрослых.",
+  title: "Языковой центр Сорока в Чите",
+  description: "Языковой центр «Сорока» (Soroka) в Чите — английский, немецкий и китайский языки для детей и взрослых.",
 };
 
 export default function RootLayout({
