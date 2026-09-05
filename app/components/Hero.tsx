@@ -30,7 +30,7 @@ export default function Hero() {
               tracking-tight
               text-navy
               sm:text-5xl
-              lg:text-6xl
+              lg:text-7xl
             "
           >
             Открой дверь
@@ -46,7 +46,7 @@ export default function Hero() {
               mt-6
               max-w-[560px]
               text-[17px]
-              leading-relaxed
+              leading-[1.4]
               text-navy/80
               sm:text-lg
               lg:text-xl
@@ -55,11 +55,11 @@ export default function Hero() {
             Английский, немецкий и китайский языки
             <br className="hidden sm:block" />
             {" "}
-             для детей и взрослых —
+             для детей и взрослых — учимся говорить
             <br className="hidden sm:block" />
             {" "}
             <span className="font-medium text-navy">
-              учимся говорить уверенно и с удовольствием!
+               уверенно и с удовольствием!
             </span>
           </p>
 
